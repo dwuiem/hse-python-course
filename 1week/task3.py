@@ -3,7 +3,7 @@ Task: 3
 URL: https://leetcode.com/problems/group-anagrams/
 """
 
-from types import List
+from typing import List
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

@@ -3,7 +3,7 @@ Task1: Generate Parenthesis
 URL: https://leetcode.com/problems/generate-parentheses/
 """
 
-from typing import List # leetcode lib
+from typing import List
 
 class Solution:
     def generate(self, combinations: list, buffer: str, pairs, opened, closed):
