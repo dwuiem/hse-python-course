@@ -3,8 +3,6 @@ Task: 2
 URL: https://leetcode.com/problems/container-with-most-water/
 """
 
-from typing import List
-
 # Решение с использованием двух указателей (жадный алгоритм)
 
 class Solution:
