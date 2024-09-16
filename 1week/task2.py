@@ -1,6 +1,6 @@
 """
 Task: 2
-URL: https://leetcode.com/problems/container-with-most-water/?envType=study-plan-v2&envId=top-interview-150
+URL: https://leetcode.com/problems/container-with-most-water/
 """
 
 from types import List
