@@ -5,6 +5,8 @@ URL: https://leetcode.com/problems/string-compression/
 
 # Two pointers solve
 
+from typing import List
+
 
 class Solution:
     def compress(self, chars: List[str]) -> int:

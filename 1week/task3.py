@@ -3,6 +3,9 @@ Task: 3
 URL: https://leetcode.com/problems/group-anagrams/
 """
 
+from typing import List
+
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         # Словарь нужен чтобы определять анаграмы по отсортированному варианту
@@ -12,7 +15,7 @@ class Solution:
         # Добавляем слова в словарь
         for s in strs:
             # Определяем ключ как отсортированную анаграму
-            key = ''.join(sorted(s))
+            key = "".join(sorted(s))
 
             # Добавляем в нужную группу строку
             if key not in m:

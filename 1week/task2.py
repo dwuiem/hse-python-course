@@ -5,10 +5,13 @@ URL: https://leetcode.com/problems/container-with-most-water/
 
 # Решение с использованием двух указателей (жадный алгоритм)
 
+from typing import List
+
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         result = 0
-        # Начинаем поиск, расставив указатели по краям, 
+        # Начинаем поиск, расставив указатели по краям,
         # чтобы длина контейнера изначально была самой большой
         left = 0
         right = len(height) - 1

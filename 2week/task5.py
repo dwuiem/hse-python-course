@@ -3,6 +3,8 @@ Task 5
 URL: https://leetcode.com/problems/permutation-in-string/
 """
 
+from typing import List
+
 
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:

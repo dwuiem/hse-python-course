@@ -5,6 +5,9 @@ URL: https://leetcode.com/problems/minimum-size-subarray-sum/
 
 # Будем использовать скользящее окно и прибавлять прибавлять/убавлять значения от текущей суммы
 
+from typing import List
+
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         s = 0
@@ -21,6 +24,5 @@ class Solution:
             right += 1
         if min_len == len(nums) + 1:
             return 0
-        else: 
+        else:
             return min_len
-
