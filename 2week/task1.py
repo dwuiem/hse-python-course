@@ -3,8 +3,6 @@ Task: 1
 URL: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 """
 
-from typing import List
-
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
